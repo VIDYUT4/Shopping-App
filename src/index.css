@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.MuiPaper-rounded .cardMedia {
+    object-fit: contain;
+    height: 300px;
+}
+.MuiCardContent-root .cardHeader {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.MuiCardContent-root .cardBody {
+    white-space: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 75px;
+}
+li.userMenu {
+    min-width: 180px;
+    padding: 0 16px;
+}
+li.userMenu span {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+li.userMenu span > span {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+}
+body .loginContainer {
+    background: #fff;
+    padding: 24px;
+    margin-top: 100px;
+}
+body .loginContainer .MuiBox-root {
+    margin-top: 10px;
+}
+body .modelClose {
+    position: absolute;
+    top: -22px;
+    right: -15px;
+}
